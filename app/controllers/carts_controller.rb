@@ -11,7 +11,6 @@ class CartsController < ApplicationController
   # GET /carts/1
   # GET /carts/1.json
   def show
-    Rails.logger.info">>>>>>>>#{@cart}"
   end
 
   # GET /carts/new
